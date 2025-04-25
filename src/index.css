@@ -1,0 +1,21 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --base-color:rgb(255, 98, 0);
+}
+body{
+  background-image: url(https://thumbs.dreamstime.com/b/high-quality-white-paper-texture-background-seamless-square-tile-ready-te-123487149.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.container{
+  padding:25px 130px ;
+  background-color: rgba(255, 255, 255,0.3);
+}
+@media (max-width:830px){
+  body{
+    overflow-y: scroll;
+  }
+  .container{
+    padding: 25px 80px;
+  }
+}

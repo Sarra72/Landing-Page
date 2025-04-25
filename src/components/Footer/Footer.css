@@ -1,0 +1,19 @@
+i{
+    font-size: 20px;
+}
+.socialmedia-contacts{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.content-contact{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+@media (max-width:1110px){
+    .socialmedia-contacts{
+        margin-top: -20px;
+    }
+}

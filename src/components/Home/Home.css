@@ -1,0 +1,105 @@
+.spices{
+    width:270px;
+    position: absolute;
+    top: 20px;
+    left: -70px;
+}
+.onion-and-tomato{
+    width:230px;
+    position: absolute;
+    transform: rotateY(180deg);
+    top: 40px;
+    right:-90px;
+}
+.mid{
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.mid-f{
+    max-width: 450px;
+}
+.headr{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+h2{
+    margin-top: 10px;
+    font-weight: 600;
+}
+p{
+    font-size: small;
+    line-height:1.5;
+}
+.explore-now{
+    margin:10px 0px;
+    padding: 15px 25px;
+    border: none;
+    background-color: var(--base-color);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.suhsi{
+    width: 600px;
+    position: absolute;
+    right: 80px;
+    top: 90px;
+}
+@media (max-width:1220px){
+    .suhsi{
+        width: 500px;
+    }
+}
+@media (max-width:1110px){
+    .suhsi{
+        width: 400px;
+        right: 120px;
+        top: 120px;
+    }
+    .mid-f p{
+        width: 350px;
+    }
+}
+@media (max-width:930px){
+    .suhsi{
+        width: 300px;
+        right: 100px;
+        top: 200px;
+    }
+    
+}
+@media (max-width:830px){
+    .suhsi{
+        width: 300px;
+        right: 30px;
+        top: 280px;
+    }
+    .mid-f p{
+        width: 320px;
+    }
+}
+@media (max-width:760px){
+    .suhsi{
+        display: none;
+    }
+    .mid-f{
+        margin-top: -20px;
+    }
+    .mid-f p{
+        width: 100%;
+    }
+}
+@media (max-width:660px){
+    .onion-and-tomato{
+        top: 150px;
+        right:-100px;
+    }
+    .spices{
+        top: 120px;
+        left: -120px;
+    }
+}
